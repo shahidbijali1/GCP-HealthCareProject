@@ -16,7 +16,7 @@ GCS_BUCKET = "healthcare-bucket-123"
 HOSPITAL_NAME = "hospital-b"
 LANDING_PATH = f"gs://{GCS_BUCKET}/landing/{HOSPITAL_NAME}/"
 ARCHIVE_PATH = f"gs://{GCS_BUCKET}/landing/{HOSPITAL_NAME}/archive/"
-CONFIG_FILE_PATH = f"gs://{GCS_BUCKET}/configs/load_config.csv"
+CONFIG_FILE_PATH = f"gs://{GCS_BUCKET}/config/load_config.csv"
 
 # BigQuery Configuration
 BQ_PROJECT = "gcp-de-477616"
